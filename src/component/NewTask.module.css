@@ -1,0 +1,37 @@
+.newtask {
+  width: 736px;
+  height: 54px;
+  display: flex;
+  margin-top: -27px;
+  gap: 5px;
+}
+
+.newtask button {
+  width: 90px;
+  margin: 1px;
+  border-radius: 8px;
+  border: none;
+  background: var(--blue-dark);
+  transition: background-color 0.2s;
+}
+
+.newtask button:hover {
+  background: var(--blue);
+  cursor: pointer;
+}
+
+.newtask input {
+  width: 100%;
+  margin: 1px;
+  border-radius: 8px;
+  border: 0;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  padding: 0 10px;
+  transition: 0.2s;
+}
+
+.newtask input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--puple-dark);
+}
